@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carga</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h2>Carga de Excursion</h2>
+
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Excursion</legend>
+
+        <label for="nombre-excursion">Nombre de Excursion</label>
+        <input type="text" name="nombre-excursion" id="nombre-excursion" />
+
+        <br />
+        <br />
+
+        <label for="img">Adjuntar Imagen</label>
+        <br />
+        <input type="file" name="img" id="img" />
+
+        <br />
+        <br />
+        <label for="description">Descripcion de excursion</label>
+        <br />
+        <textarea
+          name="description"
+          id="description"
+          cols="50"
+          rows="10"
+          placeholder="Ingrese aqui el texto"
+        ></textarea>
+      </fieldset>
+
+      <br /><br />
+
+      <fieldset>
+        <legend>Tipo y Precio</legend>
+
+        <label for="productType">Seleccione tipo</label>
+        <br />
+        <select name="productType" id="productType">
+          <option value="maritima">Excursion Maritima</option>
+          <option value="4x4">Excursion Terrestre (4x4)</option>
+          <option value="terrestre">Excursion Terrestre (Caminata)</option>
+        </select>
+
+        <br /><br />
+
+        <label for="price">Precio</label>
+        <br />
+        <input type="number" name="price" id="price" />
+      </fieldset>
+
+      <br /><br />
+
+      <fieldset>
+        <legend>Servicios Incluidos (Caracteristicas)</legend>
+
+        <label for="vianda">Vianda</label>
+        <input type="checkbox" name="Servicios" value="vianda" id="vianda" />
+
+        <br />
+        <br />
+
+        <label for="guia">Guia</label>
+        <input type="checkbox" name="Servicios" value="guia" id="guia" />
+
+        <br />
+        <br />
+
+        <label for="fotografia">Servicio de Fotografia</label>
+        <input
+          type="checkbox"
+          name="Servicios"
+          value="fotografias"
+          id="fotografia"
+        />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Dificultad</legend>
+
+        <label for="dif-facil">Facil</label>
+        <input type="radio" name="Dificultad" value="facil" id="dif-facil" />
+
+        <br />
+        <br />
+
+        <label for="dif-inter">Intermedio</label>
+        <input
+          type="radio"
+          name="Dificultad"
+          value="intermedio"
+          id="dif-inter"
+        />
+
+        <br />
+        <br />
+
+        <label for="dif-dif">Dificil</label>
+        <input type="radio" name="Dificultad" value="dificil" id="dif-dif" />
+      </fieldset>
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Incluye Transporte</legend>
+
+        <label for="trans-si">Si</label>
+        <input type="radio" name="Transporte" value="si" id="trans-si" />
+
+        <br />
+        <br />
+
+        <label for="trans-no">No</label>
+        <input type="radio" name="Transporte" value="no" id="trans-no" />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <button type="submit">Agregar Producto</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <br />
+    <br />
+
+    <a href="index.html">Volver a Home</a>
+  </body>
+</html>
