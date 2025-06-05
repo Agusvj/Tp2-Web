@@ -20,6 +20,10 @@ body {
   color: mixin.$secondary-color;
 }
 
+.contrast {
+  background-color: mixin.$contrast-color;
+}
+
 /* Styles de index */
 
 .navbar-style {
@@ -147,25 +151,6 @@ footer {
   background-color: mixin.$contrast-color;
 }
 
-.button-tts {
-  max-width: 150px;
-  border-radius: 15px;
-  background-color: mixin.$secondary-color;
-  color: mixin.$terciary-color;
-  font-weight: bold;
-  padding: 5px 10px 5px 10px;
-}
-
-.button-tts:hover {
-  max-width: 150px;
-  border-radius: 15px;
-  background-color: mixin.$secondary-color;
-  font-weight: bold;
-  border: 1px solid;
-  padding: 5px 10px 5px 10px;
-  border-color: mixin.$terciary-color;
-}
-
 .card-excursion:hover h2 {
   color: mixin.$secondary-color;
   transition: all 0.5s;
@@ -175,6 +160,16 @@ footer {
   border: 1px;
   border-style: solid;
   border-color: white;
+}
+
+.btn {
+  background-color: mixin.$secondary-color;
+  color: mixin.$terciary-color;
+}
+
+.btn:hover {
+  background-color: #9c5334;
+  color: mixin.$terciary-color;
 }
 
 @media (max-width: 768px) {
@@ -250,16 +245,10 @@ footer {
   .card-excursion h2 {
     font-size: small;
   }
+}
 
-  .button-tts {
-    max-width: 150px;
-    border-radius: 15px;
-    background-color: mixin.$secondary-color;
-    color: mixin.$terciary-color;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    font-size: small;
-  }
+.parag-light {
+  font-family: "MontserratLight";
 }
 
 .list {
@@ -288,24 +277,4 @@ table {
 th,
 td {
   padding: 5px;
-}
-/*Estilo css de ficha*/
-figure {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 25px;
-}
-figcaption {
-  padding-left: 10px;
-  padding-top: 5px;
-}
-h1 {
-  font-family: var(--anton);
-  letter-spacing: 1px;
-  color: var(--primary);
-  margin-bottom: 20px;
-}
-h2 {
-  font-family: var(--open);
-  color: var(--primary);
 }
