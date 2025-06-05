@@ -87,7 +87,7 @@ footer {
 .product-card img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
 }
 
@@ -127,7 +127,7 @@ footer {
 
 .card-excursion img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -315,15 +315,6 @@ h1 {
 }
 
 h2 {
-  /*font-family: var(--open);*/
+  font-family: var(--open);
   color: var(--primary);
-  font-family: "MontserratBold";
-} /*# sourceMappingURL=style.css.map */
-
-/*ESTILO DE TABLA*/
-.estetica-general {
-  background-color: rgb(29, 102, 127);
-  color: #e9ebcb;
-  border-width: 2px;
-  border-color: #e07b4f;
-}
+}/*# sourceMappingURL=style.css.map */
