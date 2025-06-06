@@ -302,14 +302,14 @@ td {
   transition: all 0.2s ease-in; /* ease-in es un tipo de efecto*/
 }
 /*hovver me permite asignar un estilo especifico cuando el cursor este sobre ese elemento*/
-.experiencia .columna:hover {
+.columna:hover {
   color: white;
-  background-color: #1d333e;
+  background-color: #0f6793;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #50a93d;
+  color: mixin.$secondary-color;
   background-color: #094562;
   padding: 8px 19px;
   border-radius: 50%;
