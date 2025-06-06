@@ -15,6 +15,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "MontserratLight";
+  src: url("../fonts/montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 /* Variables de colores */
 /* Degradado */
 * {
@@ -31,6 +38,10 @@ body {
 
 .orange {
   color: #e07b4f;
+}
+
+.contrast {
+  background-color: #05313c;
 }
 
 /* Styles de index */
@@ -161,25 +172,6 @@ footer {
   background-color: #05313c;
 }
 
-.button-tts {
-  max-width: 150px;
-  border-radius: 15px;
-  background-color: #e07b4f;
-  color: #d8d8d8;
-  font-weight: bold;
-  padding: 5px 10px 5px 10px;
-}
-
-.button-tts:hover {
-  max-width: 150px;
-  border-radius: 15px;
-  background-color: #e07b4f;
-  font-weight: bold;
-  border: 1px solid;
-  padding: 5px 10px 5px 10px;
-  border-color: #d8d8d8;
-}
-
 .card-excursion:hover h2 {
   color: #e07b4f;
   transition: all 0.5s;
@@ -189,6 +181,16 @@ footer {
   border: 1px;
   border-style: solid;
   border-color: white;
+}
+
+.btn {
+  background-color: #e07b4f;
+  color: #d8d8d8;
+}
+
+.btn:hover {
+  background-color: #9c5334;
+  color: #d8d8d8;
 }
 
 @media (max-width: 768px) {
@@ -252,16 +254,11 @@ footer {
   .card-excursion h2 {
     font-size: small;
   }
-  .button-tts {
-    max-width: 150px;
-    border-radius: 15px;
-    background-color: #e07b4f;
-    color: #d8d8d8;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    font-size: small;
-  }
 }
+.parag-light {
+  font-family: "MontserratLight";
+}
+
 .list {
   display: inline;
   list-style-type: none;
