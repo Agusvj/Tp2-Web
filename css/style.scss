@@ -13,7 +13,7 @@ body {
   background-color: mixin.$primary-color;
   font-family: "Montserrat", sans-serif;
   color: mixin.$terciary-color;
-  padding-top: 75px;
+  padding-top: 100px;
 }
 
 .orange {
@@ -266,14 +266,19 @@ footer {
   content: "";
 }
 
-table,
 th,
 td {
-  border: 1px solid;
+  border: 1px solid mixin.$secondary-color;
 }
 table {
   border-collapse: collapse;
+  background-color: mixin.$contrast-color;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
 }
+
 th,
 td {
   padding: 5px;
@@ -283,50 +288,9 @@ td {
   color: #d26e43;
   font-family: "MontserratBold";
   text-align: center;
-  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-/*ESTILOS DE LAS SECCIONES*/
-.experiencia {
-  padding: 30px 40px 10px 40px;
-}
-/* este estilo se va a aplicar a las columnas */
-.experiencia .columna {
-  padding: 20px;
-  border: 2px solid #8080804d;
-  background-color: mixin.$contrast-color;
-  display: flex;
-  flex-direction: column; /*el eje principal seria el eje vertical porque estamos asignando una direccion de columna*/
-  align-items: center;
-  justify-content: space-evenly; /*porque queremos distribuir equitativamente los elementos en el eje principal*/
-  transition: all 0.2s ease-in; /* ease-in es un tipo de efecto*/
-}
-/*hovver me permite asignar un estilo especifico cuando el cursor este sobre ese elemento*/
-.columna:hover {
-  color: white;
-  background-color: #0f6793;
-  cursor: pointer;
-}
-
-.experiencia i {
-  font-size: 2.5rem;
-  color: mixin.$secondary-color;
-  background-color: #094562;
-  padding: 8px 19px;
-  border-radius: 50%;
-}
-
-.experiencia-titulo {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 10px 0;
-}
-.badges-contenedor {
-  font-size: 15px;
-  font-weight: bold;
-  margin: 5px;
-}
-
-.seccion-clara {
-  color: mixin.$terciary-color;
+.seccion-tabla {
+  margin-top: 5px;
 }
