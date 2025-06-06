@@ -98,7 +98,7 @@ footer {
 .product-card img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
 }
 
@@ -138,7 +138,7 @@ footer {
 
 .card-excursion img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -277,29 +277,21 @@ footer {
   content: "";
 }
 
-/*Estilo css de ficha*/
-figure {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 25px;
+table,
+th,
+td {
+  border: 1px solid;
 }
 
-figcaption {
-  padding-left: 10px;
-  padding-top: 5px;
+table {
+  border-collapse: collapse;
 }
 
-h1 {
-  font-family: var(--anton);
-  letter-spacing: 1px;
-  color: var(--primary);
-  margin-bottom: 20px;
+th,
+td {
+  padding: 5px;
 }
 
-h2 {
-  font-family: var(--open);
-  color: var(--primary);
-} /*# sourceMappingURL=style.css.map */
 .excursiones-titulo {
   color: #d26e43;
   font-family: "MontserratBold";
@@ -307,60 +299,23 @@ h2 {
   padding-top: 40px;
 }
 
-/*carrusel*/
-.carousel {
-  width: 100vw;
-  max-width: 100%; /* Tamaño máximo */
-  height: auto;
-}
-.carousel-inner img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; /* Asegura que las imágenes mantengan proporción */
-}
-@media screen and (max-width: 430px) {
-  .carousel {
-    height: 250px; /* Ajusta la altura en móviles */
-  }
-  .carousel-inner img {
-    height: 250px;
-  }
-}
-
-footer {
-  width: 100vw;
-  max-width: 100%;
-  padding: 10px;
-  text-align: center;
-}
-
-@media screen and (max-width: 400px) {
-  footer {
-    flex-direction: column;
-    padding: 5px;
-    font-size: 14px;
-  }
-
-  section.d-flex {
-    align-items: center;
-    text-align: center;
-  }
-}
 /*ESTILOS DE LAS SECCIONES*/
 .experiencia {
   padding: 30px 40px 10px 40px;
 }
+
 /* este estilo se va a aplicar a las columnas */
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #8080804d;
-  background-color: #a2c8d1;
+  border: 2px solid rgba(128, 128, 128, 0.3019607843);
+  background-color: #05313c;
   display: flex;
   flex-direction: column; /*el eje principal seria el eje vertical porque estamos asignando una direccion de columna*/
   align-items: center;
   justify-content: space-evenly; /*porque queremos distribuir equitativamente los elementos en el eje principal*/
   transition: all 0.2s ease-in; /* ease-in es un tipo de efecto*/
 }
+
 /*hovver me permite asignar un estilo especifico cuando el cursor este sobre ese elemento*/
 .experiencia .columna:hover {
   color: white;
@@ -380,6 +335,7 @@ footer {
   font-weight: bold;
   margin: 10px 0;
 }
+
 .badges-contenedor {
   font-size: 15px;
   font-weight: bold;
@@ -387,6 +343,5 @@ footer {
 }
 
 .seccion-clara {
-  color: black;
-  background-color: rgb(26, 75, 92);
-}
+  color: #d8d8d8;
+}/*# sourceMappingURL=style.css.map */
