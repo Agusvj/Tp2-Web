@@ -10,7 +10,7 @@
     "descripcion": "Caminata a traves de senderos naturales hasta una laguna de aguas esmeralda rodeada de montañas",
     "precio": "25000",
     "descLista": "Caminata intermedia con vianda incluida, transporte y guía",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "4x4 Fagnano",
@@ -23,7 +23,7 @@
     "descripcion": "Aventura 4x4 a través de paisajes fueguinos hasta el Lago Fagnano. Cruzamos bosques, turbales y caminos inexplorados en vehículos 4x4, viviendo la emoción de un recorrido único por la naturaleza salvaje del sur. ",
     "precio": "50000",
     "descLista": "Turismo 4x4 hacia Lago Fagnano. Incluye vianda, transporte y guía.",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "Off Road - Valles- Estancia San Ricardo",
@@ -36,7 +36,7 @@
     "descripcion": "Explorá los valles fueguinos más recónditos en una travesía 4x4 que desafía caminos inhóspitos y paisajes intactos. Atravesamos el Valle Tierra Mayor y el Valle Carbajal rumbo a la mítica Estancia San Ricardo",
     "precio": "50000",
     "descLista": "Viaje por Ruta Nacional n°3 hasta Estancia San Ricardo. No incluye transporte ni comida.",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "Tren del Fin del Mundo",
@@ -49,7 +49,7 @@
     "descripcion": "Recorrido en el legendario Tren del Fin del Mundo, el histórico ferrocarril que antiguamente transportaba a los presos del penal de Ushuaia. Hoy convertido en una experiencia turística, el tren serpentea a través de paisajes fueguinos dentro del Parque Nacional Tierra del Fuego, cruzando ríos, valles y bosques centenarios. El paseo incluye relatos históricos y vistas espectaculares, con opción de descenso en estaciones clave.",
     "precio": "55000",
     "descLista": "Paseo en tren histórico dentro del Parque Nacional con guía, transporte y vianda incluidos.",
-    "oferta": "true"
+    "oferta": true
   },
   {
     "titulo": "City Tour",
@@ -62,7 +62,7 @@
     "descripcion": "Descubrí Ushuaia desde sus raíces en un recorrido guiado por los puntos más emblemáticos de la ciudad más austral del mundo. Visitamos miradores naturales, monumentos históricos, barrios tradicionales y el casco céntrico, con paradas fotográficas y relatos que conectan la geografía con la historia fueguina. Ideal para tomar contacto con la cultura local y conocer la ciudad desde una perspectiva integral. ",
     "precio": "55000",
     "descLista": "City tour guiado con vianda y transporte incluidos. Recorrido por los principales puntos históricos y panorámicos de Ushuaia.",
-    "oferta": "true"
+    "oferta": true
   },
   {
     "titulo": "Faro del Fin del Mundo",
@@ -75,7 +75,7 @@
     "descripcion": "Navegación escénica por el Canal Beagle rumbo al icónico Faro Les Éclaireurs, conocido como el Faro del Fin del Mundo.",
     "precio": "55000",
     "descLista": "Navegación en Catamarán con guía abordo hasta el Faro del Fin del Mundo. No incluye vianda ni transporte",
-    "oferta": "true"
+    "oferta": true
   },
 
   {
@@ -89,7 +89,7 @@
     "descripcion": "Navegación en catamarán por el Canal Beagle con guía a bordo, explorando el archipiélago Bridges. El recorrido incluye la Isla de los Pájaros, hogar de una rica avifauna fueguina como skúas, albatros de ceja negra, patos vapor, cauquenes y cormoranes.",
     "precio": "25000",
     "descLista": "Navegación en catamarán con guía a bordo. Avistaje de aves y lobos marinos. Incluye vianda, transporte y guía.",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "Navegacíon PingÜinera",
@@ -102,7 +102,7 @@
     "descripcion": "Embarcamos en catamarán desde el muelle turístico de Ushuaia para navegar el Canal Beagle, recorriendo la Isla de los Pájaros, continuamos hacia la Estancia Harberton, desde donde cruzamos en embarcación semirrígida hasta la Isla Martillo. Allí realizamos una caminata guiada entre pingüinos magallánicos y papúas, en su hábitat natural",
     "precio": "50000",
     "descLista": "Navegación en catamarán con guía a bordo. Caminata entre pingüinos en Isla Martillo. Incluye vianda, transporte y guía.",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "Ushuaia Total",
@@ -115,7 +115,7 @@
     "descripcion": "Sobrevuelo panorámico en helicóptero sobre Ushuaia y sus alrededores. En tan solo 7 minutos, viví una experiencia aérea única que te permitirá contemplar el Canal Beagle, el Glaciar Martial, el Monte Olivia, el Monte Cinco Hermanos y toda la ciudad del Fin del Mundo desde una perspectiva inigualable",
     "precio": "80000",
     "descLista": "Sobrevuelo en helicóptero con guía a bordo. Vista panorámica de Ushuaia, montañas y Canal Beagle. No incluye vianda ni transporte",
-    "oferta": "true"
+    "oferta": true
   },
   {
     "titulo": "Experiencia Piloto",
@@ -128,7 +128,7 @@
     "descripcion": "Viví la adrenalina de ser piloto por un día en Ushuaia. La experiencia comienza con una charla introductoria sobre los controles y principios básicos del vuelo en helicóptero.Durante el vuelo, tomás los mandos bajo supervisión profesional, aprendiendo maniobras básicas mientras disfrutás de vistas panorámicas del Fin del Mundo",
     "precio": "25000",
     "descLista": "Experiencia de vuelo con instructor. Incluye vianda, transporte y guía. ¡Manejá un helicóptero en Ushuaia!",
-    "oferta": "false"
+    "oferta": false
   },
   {
     "titulo": "Sobrevuelo de Lagos",
@@ -141,6 +141,6 @@
     "descripcion": "Sobrevuelo en helicóptero por los paisajes más imponentes de Tierra del Fuego. La experiencia comienza en Ushuaia y se eleva sobre el Valle del Río Olivia, el Monte Cinco Hermanos y la Laguna Esmeralda. Desde allí, el recorrido se adentra en la Cordillera de los Andes, sobrevolando los lagos Escondido y Fagnano, así como lagunas ocultas entre montañas",
     "precio": "50000",
     "descLista": "Sobrevuelo en helicóptero con guía a bordo. Vistas de lagos, montañas y glaciares. Incluye vianda, transporte y guía",
-    "oferta": "false"
+    "oferta": false
   }
 ]
