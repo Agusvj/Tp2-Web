@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titulo": "Laguna Esmeralda",
     "subtitulo": "Caminata Guiada",
     "tipoExcursion": "terrestre",
@@ -14,10 +15,11 @@
     "imagen": "./imagenes/laguna esmeralda.jpg"
   },
   {
+    "id": 2,
     "titulo": "4x4 Fagnano",
     "subtitulo": "Emocionante viaje cruzando Caminos Inhóspitos",
     "tipoExcursion": "terrestre",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -28,10 +30,11 @@
     "imagen": "./imagenes/carretera.jpg"
   },
   {
-    "titulo": "Off Road - Valles- Estancia San Ricardo",
+    "id": 3,
+    "titulo": "Off Road - Estancia San Ricardo",
     "subtitulo": "Ruta Nacional N° 3",
     "tipoExcursion": "terrestre",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Sin Vianda",
     "transporte": "Sin Transporte",
     "guia": "Con Guia",
@@ -42,10 +45,11 @@
     "imagen": "./imagenes/ruta 3.jpg"
   },
   {
+    "id": 4,
     "titulo": "Tren del Fin del Mundo",
     "subtitulo": "Viaje en tren histórico por el Parque Nacional ",
     "tipoExcursion": "terrestre",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -56,10 +60,11 @@
     "imagen": "./imagenes/tren.jpeg"
   },
   {
+    "id": 5,
     "titulo": "City Tour",
     "subtitulo": "Recorrido por la ciudad de Ushuaia",
     "tipoExcursion": "terrestre",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -70,10 +75,11 @@
     "imagen": "./imagenes/city-tour.jpeg"
   },
   {
+    "id": 6,
     "titulo": "Faro del Fin del Mundo",
     "subtitulo": "Avistaje de Fauna Marina",
     "tipoExcursion": "maritima",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Sin Vianda",
     "transporte": "Sin Transporte",
     "guia": "Con Guía",
@@ -83,12 +89,12 @@
     "oferta": true,
     "imagen": "./imagenes/faro.jpg"
   },
-
   {
+    "id": 7,
     "titulo": "Isla de los Lobos",
     "subtitulo": "Avifauna Fueguina",
     "tipoExcursion": "maritima",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -99,10 +105,11 @@
     "imagen": "./imagenes/lobos.jpg"
   },
   {
+    "id": 8,
     "titulo": "Navegacíon PingÜinera",
     "subtitulo": "Descenso y Caminata",
     "tipoExcursion": "maritima",
-    "dificultad": "baja",
+    "dificultad": "Baja",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -113,10 +120,11 @@
     "imagen": "./imagenes/aves.jpg"
   },
   {
+    "id": 9,
     "titulo": "Ushuaia Total",
     "subtitulo": "Paseo 360°",
     "tipoExcursion": "aerea",
-    "dificultad": "----",
+    "dificultad": "Nula",
     "comida": "Sin Vianda",
     "transporte": "Sin Transporte",
     "guia": "Con Guía",
@@ -127,10 +135,11 @@
     "imagen": "./imagenes/ciudad ushuaia.jpg"
   },
   {
+    "id": 10,
     "titulo": "Experiencia Piloto",
     "subtitulo": "Maneja el helicoptero",
     "tipoExcursion": "aerea",
-    "dificultad": "----",
+    "dificultad": "Nula",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
@@ -141,10 +150,11 @@
     "imagen": "./imagenes/helicoptero2.jpeg"
   },
   {
+    "id": 11,
     "titulo": "Sobrevuelo de Lagos",
     "subtitulo": "Paisajes profundos, viaje por la Cordillera de los Andes",
     "tipoExcursion": "aerea",
-    "dificultad": "----",
+    "dificultad": "Nula",
     "comida": "Con Vianda",
     "transporte": "Con Transporte",
     "guia": "Con Guía",
