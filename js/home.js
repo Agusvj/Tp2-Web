@@ -23,10 +23,12 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
             class="d-flex flex-row justify-content-between align-items-center"
           >
             <p class="m-0">Precio</p>
-            <span class="price">$${excursion.precio}</span>
+            <span class="price">$${excursion.precio * 0.6}</span>
           </div>
           <div class="w-100 d-flex justify-content-center mt-3">
-            <a class="btn orange" href="ficha.html?id=${excursion.id}">Ver Mas</a>
+            <a class="btn orange" href="ficha.html?id=${
+              excursion.id
+            }">Ver Mas</a>
           </div>
         </article>
       `;

@@ -42,7 +42,11 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
           <p class="parag-light">
             ${excursionEncontrada.descripcion}
           </p>
-          <p class="fw-bold">Precio: <span class="orange">$${excursionEncontrada.precio}</span></p>
+          <p class="fw-bold">Precio: <span class="orange">$${
+            excursionEncontrada.oferta
+              ? excursionEncontrada.precio * 0.6
+              : excursionEncontrada.precio
+          }</span></p>
           <button class="btn orange">Agregar al Carrito</button>
         </div>
       </figure>
