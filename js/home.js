@@ -26,7 +26,7 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
             <span class="price">$${excursion.precio}</span>
           </div>
           <div class="w-100 d-flex justify-content-center mt-3">
-            <a class="btn orange" href="ficha.html?name=${excursion.titulo}">Ver Mas</a>
+            <a class="btn orange" href="ficha.html?id=${excursion.id}">Ver Mas</a>
           </div>
         </article>
       `;
@@ -39,7 +39,7 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
         >
           <p class="text-center m-0">Excursion ${excursion.tipoExcursion}</p>
           <div class="w-100 position-relative">
-            <img src="${excursion.imagen}" alt="" />
+            <img src="${excursion.imagen}" alt="${excursion.titulo}" />
           </div>
           <h2>${excursion.titulo}</h2>
           <div
@@ -49,7 +49,7 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
             <span class="price">$${excursion.precio}</span>
           </div>
           <div class="w-100 d-flex justify-content-center mt-3">
-            <a class="btn orange" href="ficha.html?name=${excursion.titulo}">Ver Mas</a>
+            <a class="btn orange" href="ficha.html?id=${excursion.id}">Ver Mas</a>
           </div>
         </article>
       `;
