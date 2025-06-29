@@ -67,168 +67,21 @@
     <!-- excursiones-->
 
     <!--TABLAS-->
-    <section id="terrestre" class="seccion-tabla">
-      <h2 class="excursiones-titulo">Excursiones Terrestres</h2>
+    <section class="container py-5">
+      <h2 id="titulo-lista" class="text-center mb-4"></h2>
       <div class="table-responsive">
-        <table>
+        <table class="table table-bordered">
           <thead>
-            <tr class="texto-tabla">
-              <th>Excursiones Terrestres</th>
+            <tr>
+              <th>Nombre</th>
               <th>Descripcion</th>
               <th>Precio</th>
               <th>Caracteristicas</th>
             </tr>
           </thead>
 
-          <tbody>
-            <tr>
-              <td>Off Road - Valles- Estancia San Ricardo</td>
-              <td>Ruta Nacional N° 3</td>
-              <td>$50000</td>
-              <td>
-                <ul class="list">
-                  <li>Sin vianda</li>
-                  <li>Sin transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Laguna Esmeralda</td>
-              <td>Caminata Guiada</td>
-              <td>$25000</td>
-              <td>
-                <ul class="list">
-                  <li>Intermedio</li>
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>4x4 Fagnano</td>
-              <td>Emocionante viaje cruzando Caminos Inhóspitos</td>
-              <td>$50000</td>
-              <td>
-                <ul class="list">
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="maritima">
-      <h2 class="excursiones-titulo">Excursiones Maritimas</h2>
-
-      <div class="table-responsive">
-        <table>
-          <thead>
-            <tr>
-              <th>Excursiones Maritimas</th>
-              <th>Descripcion</th>
-              <th>Precio</th>
-              <th>Caracteristicas</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>Faro del Fin del Mundo</td>
-              <td>Avistaje de Fauna Marina</td>
-              <td>$50000</td>
-              <td>
-                <ul class="list">
-                  <li>Sin vianda</li>
-                  <li>Sin transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Isla de los Lobos</td>
-              <td>Avifauna Fueguina</td>
-              <td>$25000</td>
-              <td>
-                <ul class="list">
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Navegacion PingÜinera</td>
-              <td>Descenso y Caminata</td>
-              <td>$50000</td>
-              <td>
-                <ul class="list">
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="aerea">
-      <h2 class="excursiones-titulo">Excursiones Aereas</h2>
-      <div class="table-responsive">
-        <table>
-          <thead>
-            <tr>
-              <th>Excursiones Aereas</th>
-              <th>Descripcion</th>
-              <th>Precio</th>
-              <th>Caracteristicas</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>Ushuaia Total</td>
-              <td>Paseo 360°</td>
-              <td>$80000</td>
-              <td>
-                <ul class="list">
-                  <li>Sin vianda</li>
-                  <li>Sin transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Experiencia Piloto</td>
-              <td>Maneja el helicoptero</td>
-              <td>$25000</td>
-              <td>
-                <ul class="list">
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Sobrevuelo de Lagos</td>
-              <td>Paisajes profundos, viaje por la Cordillera de los Andes</td>
-              <td>$50000</td>
-              <td>
-                <ul class="list">
-                  <li>Con vianda</li>
-                  <li>Con transporte</li>
-                  <li>Con guia</li>
-                </ul>
-              </td>
-            </tr>
+          <tbody id="tabla-excursiones">
+            <!--Aca las filas porjs-->
           </tbody>
         </table>
       </div>
@@ -252,5 +105,6 @@
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/lista.js"></script>
   </body>
 </html>
