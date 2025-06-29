@@ -294,3 +294,13 @@ td {
 .seccion-tabla {
   margin-top: 5px;
 }
+.etiqueta-oferta {
+  background-color: mixin.$secondary-color;
+
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 8px;
+  display: inline-block;
+}
