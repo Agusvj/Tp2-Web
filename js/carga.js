@@ -37,7 +37,6 @@ document.querySelector("form").addEventListener("submit", function (e) {
     : "Sin Guía";
   const oferta = document.querySelector("#fotografia").checked;
 
-  // Imagen a partir del input file
   const archivoImagen = document.querySelector("#img").files[0];
   const imagen = archivoImagen
     ? `./imagenes/${archivoImagen.name}`
