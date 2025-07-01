@@ -97,7 +97,7 @@ footer {
 .product-card img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
 }
 
@@ -137,7 +137,7 @@ footer {
 
 .card-excursion img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -279,7 +279,10 @@ footer {
 
 th,
 td {
-  border: 1px solid #e07b4f;
+  border: 1px solid #d8d8d8;
+  background-color: #05313c;
+  color: #d8d8d8;
+  padding: 5px;
 }
 
 table {
@@ -288,11 +291,6 @@ table {
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
-}
-
-th,
-td {
-  padding: 5px;
 }
 
 .excursiones-titulo {
@@ -315,4 +313,4 @@ td {
   font-weight: bold;
   margin-left: 8px;
   display: inline-block;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

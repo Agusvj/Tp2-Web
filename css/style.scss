@@ -269,7 +269,10 @@ footer {
 
 th,
 td {
-  border: 1px solid mixin.$secondary-color;
+  border: 1px solid mixin.$terciary-color;
+  background-color: mixin.$contrast-color;
+  color: mixin.$terciary-color;
+  padding: 5px;
 }
 table {
   border-collapse: collapse;
@@ -277,11 +280,6 @@ table {
   max-width: 90%;
   margin: 0 auto;
   padding: 20px;
-}
-
-th,
-td {
-  padding: 5px;
 }
 
 .excursiones-titulo {

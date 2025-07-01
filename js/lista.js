@@ -15,7 +15,7 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
 
     if (tipo) {
       titulo.textContent =
-        "Excursiones " + tipo[0].toUpperCase() + tipo.slice(1);
+        "Excursiones " + tipo[0].toUpperCase() + tipo.slice(1) + "s";
     } else {
       titulo.textContent = "Todas las Excursiones";
     }
@@ -38,9 +38,7 @@ fetch("https://agusvj.github.io/Tp2-Web/excursiones/data.json")
       </ul>
     </td>
     <td>
-    <a href="ficha.html?id=${
-      exc.id
-    }" class="btn btn-sm btn-primary">Ver más</a> 
+    <a href="ficha.html?id=${exc.id}" class="btn orange">Ver más</a> 
     </td>
     </tr>
     `;
