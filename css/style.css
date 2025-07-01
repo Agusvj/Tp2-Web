@@ -313,4 +313,8 @@ table {
   font-weight: bold;
   margin-left: 8px;
   display: inline-block;
+}
+
+.carga {
+  max-width: 500px;
 }/*# sourceMappingURL=style.css.map */
